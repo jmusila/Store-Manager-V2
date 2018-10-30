@@ -16,8 +16,8 @@ def create_tables():
         cur.execute("DROP TABLE IF EXISTS tokens;")
 
         # create table users
-        users = "CREATE TABLE users(id VARCHAR(256) PRIMARY KEY, firstname VARCHAR(64),lastname VARCHAR(64), email VARCHAR(64) UNIQUE," \
-                "password_hash VARCHAR(256),role VARCHAR(10), time_created TIMESTAMP );"
+        users = "CREATE TABLE users(id VARCHAR(256) PRIMARY KEY, firstname VARCHAR(64), lastname VARCHAR(64), email VARCHAR(64) UNIQUE," \
+                "password_hash VARCHAR(256), role VARCHAR(10), time_created TIMESTAMP );"
 
         # create table products
         products = "CREATE TABLE products(id VARCHAR(256) PRIMARY KEY, name VARCHAR(256)," \
@@ -25,7 +25,7 @@ def create_tables():
 
         # create table sales
         sales = "CREATE TABLE sales(id VARCHAR(256) PRIMARY KEY, total_amount NUMERIC," \
-                  "quntity INT, time_created TIMESTAMP, created_by VARCHAR(64));"
+                  "quantity INT, time_created TIMESTAMP, created_by VARCHAR(64));"
 
         # create table tokens
         tokens = "CREATE TABLE tokens(id VARCHAR(256) PRIMARY KEY, expired_tokens VARCHAR(256));"
