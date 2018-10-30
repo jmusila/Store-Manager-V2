@@ -106,7 +106,6 @@ class Product(object):
             return item
         return None
 
-
     def update_product(self):
         cur.execute("UPDATE products SET quantity=%s, price=%s, time_added=%s"
                     "WHERE id=%s;",
