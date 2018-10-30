@@ -80,6 +80,7 @@ def signup():
         lastname = json.loads(request.data.decode())['lastname']
         password = json.loads(request.data.decode())['password'].replace(" ", "")
         email = json.loads(request.data.decode())['email'].replace(" ", "")
+        
 
         if not validate_email(email):
             return jsonify({'response': 'invalid email'}), 400
