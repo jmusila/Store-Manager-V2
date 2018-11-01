@@ -1,6 +1,6 @@
 
 import os
-from flask import Flask, redirect
+from flask import Flask, redirect 
 from .api.v2.views.products import products
 from .api.v2.views.users import users
 
