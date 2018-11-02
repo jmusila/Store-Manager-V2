@@ -1,6 +1,6 @@
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jonathanmusila/Store-Manager-V2/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/jonathanmusila/Store-Manager-V2.svg?branch=master)](https://travis-ci.org/jonathanmusila/Store-Manager-V2)
-[![Coverage Status](https://coveralls.io/repos/github/joanathanmusila/Store-Manager-V2/badge.svg?branch=master)](https://coveralls.io/github/jonathanmusila/Store-Manager-V2?branch=master)
+[![Build Status](https://travis-ci.org/jonathanmusila/Store-Manager-V2.svg?branch=develop)](https://travis-ci.org/jonathanmusila/Store-Manager-V2)
+[![Coverage Status](https://coveralls.io/repos/github/joanathanmusila/Store-Manager-V2/badge.svg?branch=develop)](https://coveralls.io/github/jonathanmusila/Store-Manager-V2?branch=develop)
 [![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/jonathanmusila/Store-Manager-V2)
 
 ## Store Manager
