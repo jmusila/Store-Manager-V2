@@ -6,6 +6,16 @@ python:
 
 install:
   - pip install -r requirements.txt
+  
+services:
+  - postgresql
+
+before_script:
+  - psql -c 'create database store;' -U postgres
+  - psql -c "ALTER USER store WITH PASSWORD '123store';" -U postgres
+env:
+  - DATABASE_URL="database='store', user='store', password='123store', port='5432'"
+  
 script:
   - pytest
   - pytest --cov-report term-missing --cov=app
